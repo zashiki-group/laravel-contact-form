@@ -4,21 +4,14 @@
 
 composer.jsonに追記してインストール
 
-~~~json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "git@github.com:zashiki-group/laravel-contact-form.git"
-    }
-],
-"require": {
-    ...
-    "zashiki-group/laravel-contact-form": "dev-master"
-}
-~~~
-
 ~~~bash
-composer update
+composer config repositories.zashiki-group/laravel-contact-form vcs git@github.com:zashiki-group/laravel-contact-form.git
+
+# laravel 7.xの場合
+composer require zashiki-group/laravel-contact-form
+
+# laravel 5.xの場合
+composer require zashiki-group/laravel-contact-form:~5.0
 ~~~
 
 必要ファイルを展開
