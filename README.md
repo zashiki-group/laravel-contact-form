@@ -13,7 +13,7 @@ composer.jsonに追記してインストール
 ],
 "require": {
     ...
-    "zashiki-group/laravel-contact-form": "5.8.x-dev"
+    "zashiki-group/laravel-contact-form": "dev-master"
 }
 ~~~
 
